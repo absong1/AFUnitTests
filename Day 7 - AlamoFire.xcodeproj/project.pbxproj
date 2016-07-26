@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C644C4B1D4796B500F8DEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C644C4A1D4796B500F8DEAB /* AppDelegate.swift */; };
+		9C644C4D1D4796B500F8DEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C644C4C1D4796B500F8DEAB /* ViewController.swift */; };
+		9C644C501D4796B500F8DEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C644C4E1D4796B500F8DEAB /* Main.storyboard */; };
+		9C644C521D4796B500F8DEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C644C511D4796B500F8DEAB /* Assets.xcassets */; };
+		9C644C551D4796B500F8DEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C644C531D4796B500F8DEAB /* LaunchScreen.storyboard */; };
+		9C644C601D4796B500F8DEAB /* Day_7___AlamoFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C644C5F1D4796B500F8DEAB /* Day_7___AlamoFireTests.swift */; };
+		9C644C6B1D4796B500F8DEAB /* Day_7___AlamoFireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C644C6A1D4796B500F8DEAB /* Day_7___AlamoFireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C644C5C1D4796B500F8DEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C644C3F1D4796B500F8DEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C644C461D4796B500F8DEAB;
+			remoteInfo = "Day 7 - AlamoFire";
+		};
+		9C644C671D4796B500F8DEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C644C3F1D4796B500F8DEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C644C461D4796B500F8DEAB;
+			remoteInfo = "Day 7 - AlamoFire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C644C471D4796B500F8DEAB /* Day 7 - AlamoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 7 - AlamoFire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C644C4A1D4796B500F8DEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C644C4C1D4796B500F8DEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C644C4F1D4796B500F8DEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C644C511D4796B500F8DEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C644C541D4796B500F8DEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C644C561D4796B500F8DEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C644C5B1D4796B500F8DEAB /* Day 7 - AlamoFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 7 - AlamoFireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C644C5F1D4796B500F8DEAB /* Day_7___AlamoFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day_7___AlamoFireTests.swift"; sourceTree = "<group>"; };
+		9C644C611D4796B500F8DEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C644C661D4796B500F8DEAB /* Day 7 - AlamoFireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 7 - AlamoFireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C644C6A1D4796B500F8DEAB /* Day_7___AlamoFireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day_7___AlamoFireUITests.swift"; sourceTree = "<group>"; };
+		9C644C6C1D4796B500F8DEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C644C441D4796B500F8DEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C644C581D4796B500F8DEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C644C631D4796B500F8DEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C644C3E1D4796B500F8DEAB = {
+			isa = PBXGroup;
+			children = (
+				9C644C491D4796B500F8DEAB /* Day 7 - AlamoFire */,
+				9C644C5E1D4796B500F8DEAB /* Day 7 - AlamoFireTests */,
+				9C644C691D4796B500F8DEAB /* Day 7 - AlamoFireUITests */,
+				9C644C481D4796B500F8DEAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C644C481D4796B500F8DEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C644C471D4796B500F8DEAB /* Day 7 - AlamoFire.app */,
+				9C644C5B1D4796B500F8DEAB /* Day 7 - AlamoFireTests.xctest */,
+				9C644C661D4796B500F8DEAB /* Day 7 - AlamoFireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C644C491D4796B500F8DEAB /* Day 7 - AlamoFire */ = {
+			isa = PBXGroup;
+			children = (
+				9C644C4A1D4796B500F8DEAB /* AppDelegate.swift */,
+				9C644C4C1D4796B500F8DEAB /* ViewController.swift */,
+				9C644C4E1D4796B500F8DEAB /* Main.storyboard */,
+				9C644C511D4796B500F8DEAB /* Assets.xcassets */,
+				9C644C531D4796B500F8DEAB /* LaunchScreen.storyboard */,
+				9C644C561D4796B500F8DEAB /* Info.plist */,
+			);
+			path = "Day 7 - AlamoFire";
+			sourceTree = "<group>";
+		};
+		9C644C5E1D4796B500F8DEAB /* Day 7 - AlamoFireTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C644C5F1D4796B500F8DEAB /* Day_7___AlamoFireTests.swift */,
+				9C644C611D4796B500F8DEAB /* Info.plist */,
+			);
+			path = "Day 7 - AlamoFireTests";
+			sourceTree = "<group>";
+		};
+		9C644C691D4796B500F8DEAB /* Day 7 - AlamoFireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C644C6A1D4796B500F8DEAB /* Day_7___AlamoFireUITests.swift */,
+				9C644C6C1D4796B500F8DEAB /* Info.plist */,
+			);
+			path = "Day 7 - AlamoFireUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C644C461D4796B500F8DEAB /* Day 7 - AlamoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C644C6F1D4796B500F8DEAB /* Build configuration list for PBXNativeTarget "Day 7 - AlamoFire" */;
+			buildPhases = (
+				9C644C431D4796B500F8DEAB /* Sources */,
+				9C644C441D4796B500F8DEAB /* Frameworks */,
+				9C644C451D4796B500F8DEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day 7 - AlamoFire";
+			productName = "Day 7 - AlamoFire";
+			productReference = 9C644C471D4796B500F8DEAB /* Day 7 - AlamoFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C644C5A1D4796B500F8DEAB /* Day 7 - AlamoFireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C644C721D4796B500F8DEAB /* Build configuration list for PBXNativeTarget "Day 7 - AlamoFireTests" */;
+			buildPhases = (
+				9C644C571D4796B500F8DEAB /* Sources */,
+				9C644C581D4796B500F8DEAB /* Frameworks */,
+				9C644C591D4796B500F8DEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C644C5D1D4796B500F8DEAB /* PBXTargetDependency */,
+			);
+			name = "Day 7 - AlamoFireTests";
+			productName = "Day 7 - AlamoFireTests";
+			productReference = 9C644C5B1D4796B500F8DEAB /* Day 7 - AlamoFireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C644C651D4796B500F8DEAB /* Day 7 - AlamoFireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C644C751D4796B500F8DEAB /* Build configuration list for PBXNativeTarget "Day 7 - AlamoFireUITests" */;
+			buildPhases = (
+				9C644C621D4796B500F8DEAB /* Sources */,
+				9C644C631D4796B500F8DEAB /* Frameworks */,
+				9C644C641D4796B500F8DEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C644C681D4796B500F8DEAB /* PBXTargetDependency */,
+			);
+			name = "Day 7 - AlamoFireUITests";
+			productName = "Day 7 - AlamoFireUITests";
+			productReference = 9C644C661D4796B500F8DEAB /* Day 7 - AlamoFireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C644C3F1D4796B500F8DEAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexander Song";
+				TargetAttributes = {
+					9C644C461D4796B500F8DEAB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9C644C5A1D4796B500F8DEAB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C644C461D4796B500F8DEAB;
+					};
+					9C644C651D4796B500F8DEAB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C644C461D4796B500F8DEAB;
+					};
+				};
+			};
+			buildConfigurationList = 9C644C421D4796B500F8DEAB /* Build configuration list for PBXProject "Day 7 - AlamoFire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C644C3E1D4796B500F8DEAB;
+			productRefGroup = 9C644C481D4796B500F8DEAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C644C461D4796B500F8DEAB /* Day 7 - AlamoFire */,
+				9C644C5A1D4796B500F8DEAB /* Day 7 - AlamoFireTests */,
+				9C644C651D4796B500F8DEAB /* Day 7 - AlamoFireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C644C451D4796B500F8DEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C644C551D4796B500F8DEAB /* LaunchScreen.storyboard in Resources */,
+				9C644C521D4796B500F8DEAB /* Assets.xcassets in Resources */,
+				9C644C501D4796B500F8DEAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C644C591D4796B500F8DEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C644C641D4796B500F8DEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C644C431D4796B500F8DEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C644C4D1D4796B500F8DEAB /* ViewController.swift in Sources */,
+				9C644C4B1D4796B500F8DEAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C644C571D4796B500F8DEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C644C601D4796B500F8DEAB /* Day_7___AlamoFireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C644C621D4796B500F8DEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C644C6B1D4796B500F8DEAB /* Day_7___AlamoFireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C644C5D1D4796B500F8DEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C644C461D4796B500F8DEAB /* Day 7 - AlamoFire */;
+			targetProxy = 9C644C5C1D4796B500F8DEAB /* PBXContainerItemProxy */;
+		};
+		9C644C681D4796B500F8DEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C644C461D4796B500F8DEAB /* Day 7 - AlamoFire */;
+			targetProxy = 9C644C671D4796B500F8DEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C644C4E1D4796B500F8DEAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C644C4F1D4796B500F8DEAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C644C531D4796B500F8DEAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C644C541D4796B500F8DEAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C644C6D1D4796B500F8DEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C644C6E1D4796B500F8DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C644C701D4796B500F8DEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 7 - AlamoFire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.Day-7---AlamoFire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C644C711D4796B500F8DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 7 - AlamoFire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.Day-7---AlamoFire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C644C731D4796B500F8DEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Day 7 - AlamoFireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.Day-7---AlamoFireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 7 - AlamoFire.app/Day 7 - AlamoFire";
+			};
+			name = Debug;
+		};
+		9C644C741D4796B500F8DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Day 7 - AlamoFireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.Day-7---AlamoFireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 7 - AlamoFire.app/Day 7 - AlamoFire";
+			};
+			name = Release;
+		};
+		9C644C761D4796B500F8DEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Day 7 - AlamoFireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.Day-7---AlamoFireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Day 7 - AlamoFire";
+			};
+			name = Debug;
+		};
+		9C644C771D4796B500F8DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Day 7 - AlamoFireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.Day-7---AlamoFireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Day 7 - AlamoFire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C644C421D4796B500F8DEAB /* Build configuration list for PBXProject "Day 7 - AlamoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C644C6D1D4796B500F8DEAB /* Debug */,
+				9C644C6E1D4796B500F8DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C644C6F1D4796B500F8DEAB /* Build configuration list for PBXNativeTarget "Day 7 - AlamoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C644C701D4796B500F8DEAB /* Debug */,
+				9C644C711D4796B500F8DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C644C721D4796B500F8DEAB /* Build configuration list for PBXNativeTarget "Day 7 - AlamoFireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C644C731D4796B500F8DEAB /* Debug */,
+				9C644C741D4796B500F8DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C644C751D4796B500F8DEAB /* Build configuration list for PBXNativeTarget "Day 7 - AlamoFireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C644C761D4796B500F8DEAB /* Debug */,
+				9C644C771D4796B500F8DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C644C3F1D4796B500F8DEAB /* Project object */;
+}
