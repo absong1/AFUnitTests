@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9C644C461D4796B500F8DEAB"
+               BuildableName = "Day 7 - AlamoFire.app"
+               BlueprintName = "Day 7 - AlamoFire"
+               ReferencedContainer = "container:Day 7 - AlamoFire.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9C644C5A1D4796B500F8DEAB"
+               BuildableName = "Day 7 - AlamoFireTests.xctest"
+               BlueprintName = "Day 7 - AlamoFireTests"
+               ReferencedContainer = "container:Day 7 - AlamoFire.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9C644C651D4796B500F8DEAB"
+               BuildableName = "Day 7 - AlamoFireUITests.xctest"
+               BlueprintName = "Day 7 - AlamoFireUITests"
+               ReferencedContainer = "container:Day 7 - AlamoFire.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9C644C461D4796B500F8DEAB"
+            BuildableName = "Day 7 - AlamoFire.app"
+            BlueprintName = "Day 7 - AlamoFire"
+            ReferencedContainer = "container:Day 7 - AlamoFire.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9C644C461D4796B500F8DEAB"
+            BuildableName = "Day 7 - AlamoFire.app"
+            BlueprintName = "Day 7 - AlamoFire"
+            ReferencedContainer = "container:Day 7 - AlamoFire.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9C644C461D4796B500F8DEAB"
+            BuildableName = "Day 7 - AlamoFire.app"
+            BlueprintName = "Day 7 - AlamoFire"
+            ReferencedContainer = "container:Day 7 - AlamoFire.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
